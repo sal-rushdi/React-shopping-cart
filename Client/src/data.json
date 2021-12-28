@@ -1,0 +1,38 @@
+[
+    {
+        "id": "id_1",
+        "title": "shoes",
+        "imageUrl": "/images/shoes.jpg",
+        "desc": "this is Product1",
+        "prise": 30,
+        "sizes": ["s", "m"]
+    },
+
+
+    {
+        "id": "id_2",
+        "title": "glasses",
+        "imageUrl": "/images/glasses.jpg",
+        "desc": "this is Product2",
+        "prise": 20,
+        "sizes": ["XL", "L"]
+    },
+
+    {
+        "id": "id_3",
+        "title": "Jacket",
+        "imageUrl": "/images/Jacket.jpg",
+        "desc": "this is Product3",
+        "prise": 50,
+        "sizes": ["s", "m", "L"]
+    },
+
+    {
+        "id": "id_4",
+        "title": "watches",
+        "imageUrl": "/images/watches.jpg",
+        "desc": "this is Product4",
+        "prise": 70,
+        "sizes": ["s", "m"]
+    }
+]
