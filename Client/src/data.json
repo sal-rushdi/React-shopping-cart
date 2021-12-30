@@ -5,7 +5,7 @@
         "imageUrl": "/images/shoes.jpg",
         "desc": "this is Product1",
         "prise": 30,
-        "sizes": ["s", "m"]
+        "sizes": ["S", "M"]
     },
 
 
@@ -24,7 +24,7 @@
         "imageUrl": "/images/Jacket.jpg",
         "desc": "this is Product3",
         "prise": 50,
-        "sizes": ["s", "m", "L"]
+        "sizes": ["S", "M", "L"]
     },
 
     {
@@ -33,6 +33,6 @@
         "imageUrl": "/images/watches.jpg",
         "desc": "this is Product4",
         "prise": 70,
-        "sizes": ["s", "m"]
+        "sizes": ["S", "M"]
     }
 ]

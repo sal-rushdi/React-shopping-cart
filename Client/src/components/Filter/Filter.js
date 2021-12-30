@@ -8,7 +8,7 @@ import "../../css/Filter/Filter.css"
             <div className='num-of-ptoducts'>Number of Products 4</div>
             <div className='filter-by-size'>
                 <span>Filter</span>
-                <select className='filter-select'>
+                <select value={props.size} className='filter-select' onChange={props.handleFilterBySize}>
                     <option value="ALL">ALL</option>
                     <option value="XS">XS</option>
                     <option value="S">S</option>
@@ -20,7 +20,7 @@ import "../../css/Filter/Filter.css"
             </div>
             <div className='filter-by-size'>
                 <span>Order</span>
-                <select className='filter-select'>
+                <select className='filter-select' value={props.sort} onChange={props.handleFilterByOrder}>
                     <option value="latest">Latest</option>
                     <option value="lowest">Lowest</option>
                     <option value="highest">Highest</option>
