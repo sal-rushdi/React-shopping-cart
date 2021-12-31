@@ -21,9 +21,9 @@ function Products(props) {
                   </a>
                     <div className='product-desc'>
                         <p>{product.title}</p>
-                        <span>${product.prise}</span>
+                        <span>${product.price}</span>
                     </div>
-                    <button>Add to Card</button>
+                    <button onClick={() => props.addToCart(product)}>Add to Card</button>
                 </div>
             ))}
         
