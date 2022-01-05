@@ -1,12 +1,14 @@
 import React from 'react'
 import "../../css/CheckoutForm/Checkout.css"
 import Input from '../Input/Input'
+import Roll from 'react-reveal/Roll'
 
 function Checkout(props) {
     return (
         <>
               {props.showForm &&  <div className='checkout-form'>
                 <span className='close-icon' onClick={() => props.setShowForm (false)}>&times;</span>
+                <Roll left>
                 <form onSubmit={props.submitOrder}>
                 <Input
                    label="Name"
@@ -25,8 +27,10 @@ function Checkout(props) {
                     </div>
 
                 </form>
-            </div>}  
-        </>
+                </Roll>
+            </div>} 
+        </> 
+       
     )
 }
 
