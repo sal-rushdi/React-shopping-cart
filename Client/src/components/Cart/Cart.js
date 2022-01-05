@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "../../css/Cart/Cart.css"
 import Checkout from '../CheckoutForm/Checkout'
+import Rotate from 'react-reveal/Rotate';
  function Cart(props) {
 
     const [showForm, setShowForm] = useState(false)
@@ -25,6 +26,7 @@ import Checkout from '../CheckoutForm/Checkout'
             <div className='cart-title'> {props.cartItems.length === 0 ? 'cart Empty' : <p>
                 There is {props.cartItems.length} products in cart
             </p>}</div>
+            <Rotate top cascade>
             <div className='cart-items'>
                 {props.cartItems.map(item => (
                     <div className='cart-item' key={item.id}>
@@ -43,6 +45,8 @@ import Checkout from '../CheckoutForm/Checkout'
                 ))}
                 
             </div>
+            </Rotate>
+           
             {
                 props.cartItems.length !== 0 &&
                 (
